@@ -153,7 +153,9 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.SDK.Analyzers">
-      <Version>16.10.1</Version>
+      <Version>16.10.10</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.SDK.EmbedInteropTypes">
       <Version>15.0.36</Version>
@@ -174,19 +176,19 @@
       <Version>15.0.25123-Dev15Preview</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Text.Data">
-      <Version>17.0.82-g2ecf33c7f7</Version>
+      <Version>17.0.487</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.TextTemplating.VSHost.15.0">
       <Version>17.0.0-previews-1-31410-273</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Threading">
-      <Version>17.0.17-alpha</Version>
+      <Version>17.0.64</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Validation">
-      <Version>17.0.12-alpha</Version>
+      <Version>17.0.34</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.VSSDK.BuildTools">
-      <Version>17.0.1619-preview1</Version>
+      <Version>17.0.5232</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
@@ -194,10 +196,10 @@
       <Version>13.0.1</Version>
     </PackageReference>
     <PackageReference Include="stdole">
-      <Version>17.0.0-previews-1-31410-258</Version>
+      <Version>17.0.31902.203</Version>
     </PackageReference>
     <PackageReference Include="StreamJsonRpc">
-      <Version>2.9.12-alpha</Version>
+      <Version>2.9.85</Version>
     </PackageReference>
     <PackageReference Include="System.Net.Http">
       <Version>4.3.4</Version>

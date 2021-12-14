@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="7a767aad-ab4f-4916-900e-1f3e8eef7a91" Version="3.2" Language="en-US" Publisher="DMK Software; EZSlaver" />
         <DisplayName>Extended Strongly Typed Resource Generator</DisplayName>
-        <Description xml:space="preserve">This tool is the work of Dmytro Kryvko (DMK Software) - I haven't changed a thing in the extension intself. However, this extension was moved to .Net 4.7 and put into a Visual Studio Package file (.vsix). for VS2019 
+        <Description xml:space="preserve">This tool is the work of Dmytro Kryvko (DMK Software) - I haven't changed a thing in the extension intself. However, this extension was moved to .Net 4.7 and put into a Visual Studio Package file (.vsix). for VS2022 
 This is the original description by the creator:
 
 One of the great new features of the Visual Studio .NET IDE is a custom tool called ResXFileCodeGenerator that is automatically associated with resources (*.resx files) every time they are added into a project. Whenever your project is rebuilt, a resource file is saved or a custom tool is run manually; the tool in question generates a managed class that exposes every resource you have in the *.resx file as a strongly typed static property. Now, any type of resource supported -- including images, icons, strings, etc. -- is a piece of cake to retrieve.</Description>

@@ -18,4 +18,4 @@ Previous versions can be found at
 # Installing
 The original project included an MSI, but installers are no longer supported in VisualStudio.
 
-Open Visual Studio and open the ResXFileCodeGeneratorEx.sln. It is grouped into Deployment and Design folders. Build the solution. This will output the files to src\ResXFileCodeGeneratorExPackage\bin\Debug. Open the ResxCodeFileGeneratorEx2019.vsix file in that folder. This will register the generator with Visual Studio.
+Open Visual Studio and open the ResXFileCodeGeneratorEx.sln. It is grouped into Deployment and Design folders. Note that VS-2022 is 64-bit, so all modules must be translated with "AnyCPU" or "x64". Build the solution. This will output the files to src\ResXFileCodeGeneratorExPackage\bin\Debug. Open the ResxCodeFileGeneratorEx2022.vsix file in that folder. This will register the generator with Visual Studio.

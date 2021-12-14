@@ -4,7 +4,7 @@ This is the original description by the creator:
 One of the great new features of the Visual Studio .NET IDE is a custom tool called ResXFileCodeGenerator that is automatically associated with resources (*.resx files) every time they are added into a project. Whenever your project is rebuilt, a resource file is saved or a custom tool is run manually; the tool in question generates a managed class that exposes every resource you have in the *.resx file as a strongly typed static property. Now, any type of resource supported -- including images, icons, strings, etc. -- is a piece of cake to retrieve.
 
 New in this version:
- - Visual Studio 2012 integration.
+ - Visual Studio 2022 integration.
 
 Requirements:
- - Visual Studio 2012
+ - Visual Studio 2022
